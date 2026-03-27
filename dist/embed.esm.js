@@ -1,4 +1,4 @@
-/* vinofyi-embed v1.1.0 | MIT | https://widget.vinofyi.com */
+/* vinofyi-embed v1.1.1 | MIT | https://widget.vinofyi.com */
 
 // src/styles/modern.ts
 function getModernCSS() {
