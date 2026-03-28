@@ -43,7 +43,7 @@ That's it. The widget fetches data from the VinoFYI API and renders with full st
 | `data-vinofyi` | recipe, compare, glossary, faq, guide, ingredient, pairing, search | required | Widget type |
 | `data-slug` | e.g. "wines" | — | Entity slug from the VinoFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, classic | modern | Widget design style |
+| `data-styleVariant` | modern, classic | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Wines..." | Search box placeholder |
 
