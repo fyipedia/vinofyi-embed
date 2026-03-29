@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# VinoFYI Embed Widget
+# Main site: https://vinofyi.com
+# Widget docs: https://widget.vinofyi.com
+# npm: https://www.npmjs.com/package/vinofyi-embed
