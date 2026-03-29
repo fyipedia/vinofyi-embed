@@ -166,6 +166,17 @@ Part of [FYIPedia](https://fyipedia.com) — open-source developer tools ecosyst
 | TeaFYI | [teafyi.com](https://teafyi.com) | 60+ tea varieties, teaware, brewing guides | [npm](https://www.npmjs.com/package/teafyi-embed) |
 | NihonshuFYI | [nihonshufyi.com](https://nihonshufyi.com) | 80 sake, rice varieties, 50 breweries | [npm](https://www.npmjs.com/package/nihonshufyi-embed) |
 
+## Embed Widget
+
+Embed [VinoFYI](https://vinofyi.com) widgets on any website with [vinofyi-embed](https://widget.vinofyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vinofyi-embed@1/dist/embed.min.js"></script>
+<div data-vinofyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.vinofyi.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
