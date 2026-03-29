@@ -1,21 +1,52 @@
 # VinoFYI Embed Widget
 
-> Embeddable VinoFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Wines, grapes, regions, food pairings. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/vinofyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/vinofyi-embed@1/dist/embed.min.js"></script>
+<div data-vinofyi="recipe" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- recipe: `data-vinofyi="recipe"`
+- compare: `data-vinofyi="compare"`
+- glossary: `data-vinofyi="glossary"`
+- faq: `data-vinofyi="faq"`
+- guide: `data-vinofyi="guide"`
+- ingredient: `data-vinofyi="ingredient"`
+- pairing: `data-vinofyi="pairing"`
+- search: `data-vinofyi="search"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-vinofyi="recipe" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/vinofyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://vinofyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://vinofyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://vinofyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://vinofyi.com
 - Widget docs: https://widget.vinofyi.com
-- npm: https://www.npmjs.com/package/vinofyi-embed
+- API documentation: https://vinofyi.com/developers/
+- npm package: https://www.npmjs.com/package/vinofyi-embed
 - GitHub: https://github.com/fyipedia/vinofyi-embed
-- API: https://vinofyi.com/developers/
 
-## Beverage FYI Widget Family
+## Beverage FYI Widget Network
 
 - [CocktailFYI Widget](https://widget.cocktailfyi.com)
 - [BeerFYI Widget](https://widget.beerfyi.com)
